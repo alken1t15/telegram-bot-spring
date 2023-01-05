@@ -19,7 +19,7 @@ public class User {
     @Column(name = "registeredat")
     private Timestamp registeredAt;
 
-    public  User(){
+    public User() {
 
     }
 

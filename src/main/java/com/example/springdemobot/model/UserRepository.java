@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 
-     List<User> findByChatId(Long id);
+    List<User> findByChatId(Long id);
 }
