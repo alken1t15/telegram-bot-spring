@@ -7,4 +7,6 @@ public interface UserService {
     void save(User user);
 
     List<User> findByChatId(Long id);
+
+    List<User> findAllBy();
 }

@@ -19,4 +19,11 @@ public class UserImpl implements UserService {
     public List<User> findByChatId(Long id) {
         return userRepository.findByChatId(id);
     }
+
+    @Override
+    public List<User> findAllBy() {
+        return userRepository.findAllBy();
+    }
+
+
 }
